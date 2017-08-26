@@ -5,6 +5,7 @@
 /[Bb]uilds/
 /Assets/AssetStoreTools*
 **/UnityLockFile
+**/il2cpp_cache
 
 # Visual Studio 2015 cache directory
 /.vs/
