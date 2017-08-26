@@ -4,23 +4,35 @@ using UnityEngine;
 
 public class Apple : MonoBehaviour {
 	public GameObject point;
-	public int pointsToGive;
+    public AudioClip landSound;
+    public AudioClip collectSound;
+    public int pointsToGive;
 	public bool canCollect = true;
 
-	public void Collect() {
+    void Start()
+    {
+        if (GameOver.gameOver.isGameOver)
+            Destroy(gameObject);
+    }
+
+    public void Collect() {
 		if (canCollect) {
+            Camera.main.GetComponent<AudioSource>().PlayOneShot(collectSound, 0.5f);
+            Score.score.AddScore(pointsToGive);
+
 			var newPoint = GameObject.Instantiate (point);
-			newPoint.transform.position = transform.position;
-			newPoint.GetComponent<TextMesh> ().text = "+" + pointsToGive;
+            newPoint.transform.position = transform.position;
+			newPoint.transform.Find("PointDisplay").GetComponent<TextMesh> ().text = "+" + pointsToGive;
 			Die ();
 		}
 	}
 
 	public void Die() {
 		if (canCollect) {
-			canCollect = false;
-			GetComponent<Animator> ().Play ("AppleDeath");
-			Invoke ("Destroy", 0.3f);
+            canCollect = false;
+			GetComponent<Animator>().Play ("AppleDeath");
+            GetComponent<Rigidbody>().isKinematic = true;
+			Invoke ("Destroy", 0.4f);
 		}
 	}
 
@@ -30,7 +42,8 @@ public class Apple : MonoBehaviour {
 		
 	void OnCollisionEnter(Collision c) {
 		if (c.gameObject.tag == "DatGround") {
-			Die ();
+            Camera.main.GetComponent<AudioSource>().PlayOneShot(landSound);
+            Bucket.curBucket.NextBucket();
 		}
 	}
 }
