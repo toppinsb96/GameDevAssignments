@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Projectile
+  m_Name: RedProjectile
   m_Shader: {fileID: 4800000, guid: d9d2ebc0b494289458deeee4568ef38f, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Shooter : MonoBehaviour
 {
-    public GameObject projectile;
+    public GameObject[] projectiles;
     public GameObject spawnPoint;
 
     public float launchForce;
@@ -22,6 +22,11 @@ public class Shooter : MonoBehaviour
         sling = transform.GetComponentInChildren<Sling>();
     }
 
+    GameObject CreateProjectile() {
+        int projectile_index = Random.Range(0, projectiles.Length);
+        return GameObject.Instantiate(projectiles[projectile_index]);
+    }
+
     void Update()
     {
         int shooterMask = LayerMask.GetMask("Shooter");
@@ -36,7 +41,7 @@ public class Shooter : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) && hover)
         {
-            curProjectile = GameObject.Instantiate(projectile);
+            curProjectile = CreateProjectile();
             sling.SlingProjectile(curProjectile);
         }
         else if (Input.GetMouseButtonUp(0))
@@ -63,33 +68,28 @@ public class Shooter : MonoBehaviour
         if (curProjectile)
         {
             var projectilePos = mousePos;
-            if (projectilePos.z > spawnPoint.transform.position.z)
+            projectilePos.z = Mathf.Min(mousePos.z, spawnPoint.transform.position.z);
+            
+            var spawnToProjectile = projectilePos - spawnPoint.transform.position;
+            if (spawnToProjectile.magnitude > maxStretchDist)
             {
-                projectilePos = spawnPoint.transform.position;
+                spawnToProjectile.Normalize();
+                spawnToProjectile *= maxStretchDist;
             }
-            else
-            {
-                var spawnToProjectile = projectilePos - spawnPoint.transform.position;
-                if (spawnToProjectile.magnitude > maxStretchDist)
-                {
-                    spawnToProjectile.Normalize();
-                    spawnToProjectile *= maxStretchDist;
-                }
-                float angle = Vector3.SignedAngle(spawnToProjectile, Vector3.forward, Vector3.right);
-                float clampedAngle = angle;
+            float angle = Vector3.SignedAngle(spawnToProjectile, Vector3.forward, Vector3.right);
+            float clampedAngle = angle;
 
-                if (angle < 0 && Mathf.Abs(angle) < 180.0f - maxBotttomStretchAngle)
-                {
-                    clampedAngle = -(180.0f - maxBotttomStretchAngle);
-                }
-                if (angle > 0 && Mathf.Abs(angle) < 180.0f - maxTopStretchAngle)
-                {
-                    clampedAngle = (180.0f - maxTopStretchAngle);
-                }
-                spawnToProjectile = new Vector3(spawnToProjectile.x, Mathf.Sin(clampedAngle * Mathf.Deg2Rad), Mathf.Cos(clampedAngle * Mathf.Deg2Rad)) * spawnToProjectile.magnitude;
-                projectilePos = spawnPoint.transform.position + spawnToProjectile;
-                curProjectile.transform.position = projectilePos;
+            if (angle < 0 && Mathf.Abs(angle) < 180.0f - maxBotttomStretchAngle)
+            {
+                clampedAngle = -(180.0f - maxBotttomStretchAngle);
             }
+            if (angle > 0 && Mathf.Abs(angle) < 180.0f - maxTopStretchAngle)
+            {
+                clampedAngle = (180.0f - maxTopStretchAngle);
+            }
+            spawnToProjectile = new Vector3(spawnToProjectile.x, Mathf.Sin(clampedAngle * Mathf.Deg2Rad), Mathf.Cos(clampedAngle * Mathf.Deg2Rad)) * spawnToProjectile.magnitude;
+            projectilePos = spawnPoint.transform.position + spawnToProjectile;
+            curProjectile.transform.position = projectilePos;
         }
     }
 }
