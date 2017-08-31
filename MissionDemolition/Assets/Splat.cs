@@ -62,19 +62,14 @@ public class Splat : MonoBehaviour {
                 if (dist > splat_dist)
                     continue;
 
-                Color splat = Color.Lerp(splat_color, new Color(splat_color.r, splat_color.g, splat_color.b, 0), dist / splat_dist);
-                if (mesh_colors[i].r == splat_color.r && mesh_colors[i].g == splat_color.g && mesh_colors[i].b == splat_color.b)
-                {
-                    mesh_colors[i].a = Mathf.Min(1, mesh_colors[i].a + splat.a);
-                }
-                else
-                {
-                    if (mesh_colors[i].a - 0.3f <= splat.a)
-                    { 
-                        splat.a = Mathf.Max(mesh_colors[i].a, splat.a);
-                        mesh_colors[i] = splat;
-                    }
-                }    
+                Color splat = Color.Lerp(splat_color, Color.clear, dist / splat_dist);    
+                mesh_colors[i] += splat;
+                mesh_colors[i].r = Mathf.Clamp01(mesh_colors[i].r);
+                mesh_colors[i].g = Mathf.Clamp01(mesh_colors[i].g);
+                mesh_colors[i].b = Mathf.Clamp01(mesh_colors[i].b);
+                mesh_colors[i].a = Mathf.Clamp01(mesh_colors[i].a);
+
+
             }
             mesh.colors = mesh_colors;
         }

@@ -254,8 +254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bf9bfdf26c7028439fceac00048f507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  splat_dampen: 25
-  splat_color: {r: 0.9852941, g: 0.22458908, b: 0.22458908, a: 1}
+  splat_dampen: 20
+  splat_color: {r: 1, g: 0, b: 0, a: 1}
   rubble: {fileID: 1439168874641562, guid: 698bd06a06cfec64aa8b7b06a706062e, type: 2}
 --- !u!135 &135819144167757194
 SphereCollider:

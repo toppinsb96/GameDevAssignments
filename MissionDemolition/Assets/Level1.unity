@@ -247,6 +247,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -310,6 +315,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -425,6 +435,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -488,6 +503,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -539,6 +559,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -590,6 +615,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -641,6 +671,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -704,6 +739,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -842,6 +882,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -893,6 +938,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -956,6 +1006,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -1019,6 +1074,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -1070,6 +1130,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -1121,6 +1186,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -1184,6 +1254,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -1231,6 +1306,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -1376,6 +1456,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -1439,6 +1524,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -1502,6 +1592,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -1565,6 +1660,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -1628,6 +1728,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -1684,6 +1789,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
@@ -1735,6 +1845,11 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 4300000, guid: fadb1a7a413f77e449337c65ed5c08e7, type: 3}
+    - target: {fileID: 54866878706116792, guid: ac37d0f4c5ce0024f8d6b27882e977ec,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac37d0f4c5ce0024f8d6b27882e977ec, type: 2}
   m_IsPrefabParent: 0
