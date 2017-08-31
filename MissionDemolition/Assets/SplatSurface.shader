@@ -50,8 +50,9 @@
 			{
 				fixed4 col = _Color;
 				float4 splatNoise = tex2D(_SplatNoise, i.uv);
-				i.color.a -= splatNoise.r;
+				i.color.a -= splatNoise.g;
 				if (i.color.a > 0.4) {
+				
 					if (i.color.a > 0.45) {
 						col.rgb = i.color.rgb;
 					}
